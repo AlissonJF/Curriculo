@@ -9,3 +9,10 @@ function stickyNavbar()
 stickyNavbar();
 
 window.addEventListener("scroll", stickyNavbar);
+
+/* Animação */
+
+let sr = ScrollReveal ({
+    duration: 2500,
+    distance: "60px"
+})
